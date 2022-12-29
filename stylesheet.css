@@ -24,20 +24,20 @@ th,
 tr,
 p,
 a {
-  font-family: 'IBM Plex Sans', Trebuchet MS, Tahoma, sans-serif;
-  font-size: 14px;
+  font-family: 'IBM Plex Sans', Helvetica, Trebuchet MS, Tahoma, sans-serif;
+  font-size: 15px;
 
 }
 
 self {
-  font-family: 'IBM Plex Sans', Trebuchet MS, Tahoma, sans-serif;
-  font-size: 14px;
+  font-family: 'IBM Plex Sans', Helvetica, Trebuchet MS, Tahoma, sans-serif;
+  font-size: 15x;
   font-weight: 500
 }
 
 papertitle {
-  font-family: 'IBM Plex Sans', Trebuchet MS, Tahoma, sans-serif;
-  font-size: 14px;
+  font-family: 'IBM Plex Sans', Helvetica, Trebuchet MS, Tahoma, sans-serif;
+  font-size: 15px;
   font-weight: 600;
 }
 

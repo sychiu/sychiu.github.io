@@ -58,12 +58,11 @@ table {
 }
 
  .line{
-width: 750px;
-height: 0px;
-left: 50%;
-margin-left: -375px;
+width: 100%;
+max-width: 750px;
+margin-right:auto;
+margin-left:auto;
 border-bottom: 5px solid #778f55;
-position: absolute;
 }
 
 

@@ -38,6 +38,7 @@ $(document).ready(function() {
       ['#D0A83F'],
       ['#142B5A'],
       ['#327293'],
+      ['#84a85d']
   ];
   var randomPalette = palettes[Math.floor(Math.random() * palettes.length)];
   

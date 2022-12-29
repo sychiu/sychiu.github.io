@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "IBM Plex Sans";
-    font-weight: 400;
-    font-style: italic;
-    src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans'); 
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 a {
   color: #1379bd;
@@ -24,13 +19,14 @@ p,
 a {
   font-family: 'IBM Plex Sans', Helvetica, Trebuchet MS, Tahoma, sans-serif;
   font-size: 14px;
+    font-weight: 400;
 
 }
 
 self {
   font-family: 'IBM Plex Sans', Helvetica, Trebuchet MS, Tahoma, sans-serif;
   font-size: 14x;
-  font-weight: 500
+  font-weight: 500;
 }
 
 papertitle {

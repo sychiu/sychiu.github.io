@@ -1,7 +1,7 @@
-$(document).ready(function() {
-    
-    
-  var palettes = [
+$(document).ready(function () {
+
+
+    var palettes = [
     ['#8B8A94'],
     ['#595D6D'],
     ['#256391'],
@@ -48,11 +48,11 @@ $(document).ready(function() {
       ['#6688B2'],
       ['#20315D']
   ];
-  var randomPalette = palettes[Math.floor(Math.random() * palettes.length)];
-  
-  var new_bgcolor = randomPalette[0];
+    var randomPalette = palettes[Math.floor(Math.random() * palettes.length)];
 
-  $('.line').css({
-    'border-color': new_bgcolor
-  });
+    var new_bgcolor = randomPalette[0];
+
+    $('.line').css({
+        'border-color': new_bgcolor
+    });
 });

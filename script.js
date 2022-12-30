@@ -6,20 +6,18 @@ $(document).ready(function () {
     ['#595D6D'],
     ['#256391'],
     ['#8FC03B'],
-      ['#CDDEAC'],
       ['#DBC695'],
       ['#A1B75E'],
       ['#A15C3E'],
       ['#9684AF'],
       ['#232329'],
-      ['#EF4F54'],
+      ['#d15e62'],
       ['#F5B46B'],
       ['#E26A89'],
       ['#782888'],
       ['#778f55'],
       ['#D19358'],
       ['#5E866A'],
-      ['#DFC185'],
       ['#EE9A3A'],
       ['#A1C485'],
       ['#105578'],
@@ -33,7 +31,7 @@ $(document).ready(function () {
       ['#142B5A'],
       ['#327293'],
       ['#84a85d'],
-      ['#C2DCA1'],
+      ['#aac785'],
       ['#D26A10'],
       ['#8DA581'],
       ['#F1AA84'],
@@ -46,7 +44,9 @@ $(document).ready(function () {
       ['#97A97D'],
       ['#D58A8B'],
       ['#6688B2'],
-      ['#20315D']
+      ['#20315D'],
+      ['#7498c2'],
+      ['#0f62fe']
   ];
     var randomPalette = palettes[Math.floor(Math.random() * palettes.length)];
 

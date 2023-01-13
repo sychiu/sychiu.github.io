@@ -42,12 +42,14 @@ a {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: #171414;
 }
 
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 16x;
     font-weight: 500;
+    color: #171414;
 }
 
 papertitle {
@@ -56,16 +58,19 @@ papertitle {
     font-weight: 500;
 }
 
+
 name {
     font-family: charter, Georgia, serif;
     font-style: normal;
     font-weight: normal;
     font-stretch: normal;
     font-size: 23px;
+    color: #171414;
 }
 
+
 body {
-    background-color: white;
+    background-color: #e5e0df;
     padding: 0px;
     margin: 0px;
 
@@ -80,7 +85,19 @@ table {
     max-width: 725px;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 7px solid #778f55;
+    border-bottom: 7px solid #272525;
+    /*#778f55*/
+}
+
+.heading {
+    font-family: charter, Georgia, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 23px;
+    padding-left:5%;
+    margin-top:39px;
+    
 }
 
 
@@ -101,17 +118,19 @@ table {
 
 .menu {
     font-family: charter, Georgia, serif;
-    font-size: 21px;
-    color: black;
+    font-size: 19px;
+    color: #272525;
 }
 
 a {
-    color: #0072c3;
+    /*color: #0072c3;*/
+    color: #00539a;
     text-decoration: none;
 }
 
 a:focus,
 a:hover {
-    color: #db871d;
+    /*color: #db871d;*/
+    color: #e3ae10;
     text-decoration: none;
 }

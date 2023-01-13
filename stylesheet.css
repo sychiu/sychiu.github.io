@@ -7,7 +7,7 @@
     font-stretch: normal;
     src: url('font/Charter/charter_regular.woff2') format('woff2');
 }
-
+g
 @font-face {
     font-family: charter;
     font-style: italic;
@@ -39,20 +39,20 @@ th,
 tr,
 p,
 a {
-    font-family: 'Fira Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
     font-weight: 400;
 }
 
 self {
-    font-family: 'Fira Sans', Helvetica, sans-serif;
-    font-size: 15x;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16x;
     font-weight: 500;
 }
 
 papertitle {
-    font-family: 'Fira Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -77,7 +77,7 @@ table {
 
 .line {
     width: 100%;
-    max-width: 700px;
+    max-width: 725px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 7px solid #778f55;
@@ -101,7 +101,7 @@ table {
 
 .menu {
     font-family: charter, Georgia, serif;
-    font-size: 19px;
+    font-size: 21px;
     color: black;
 }
 

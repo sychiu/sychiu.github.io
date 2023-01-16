@@ -40,21 +40,21 @@ tr,
 p,
 a {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #171414;
 }
 
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16x;
+    font-size: 15x;
     font-weight: 500;
     color: #171414;
 }
 
 papertitle {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -131,6 +131,6 @@ a {
 a:focus,
 a:hover {
     /*color: #db871d;*/
-    color: #e3ae10;
+    color: #e3af14;
     text-decoration: none;
 }

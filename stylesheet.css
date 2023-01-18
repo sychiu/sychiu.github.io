@@ -71,13 +71,16 @@ name {
 
 body {
     background-color: #e5e0df;
+    
     padding: 0px;
     margin: 0px;
 
 }
 
 table {
+    
     background-color: white;
+
 }
 
 .line {
@@ -85,7 +88,7 @@ table {
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 7px solid #272525;
+    border-bottom: 17px solid #272525;
     /*#778f55*/
 }
 
@@ -97,6 +100,7 @@ table {
     font-size: 23px;
     padding-left:5%;
     margin-top:39px;
+    color: #171414;
     
 }
 
@@ -131,6 +135,8 @@ a {
 a:focus,
 a:hover {
     /*color: #db871d;*/
-    color: #e3af14;
+    /*C0475D*/
+    /*#452c63*/
+    color: #D99645;
     text-decoration: none;
 }

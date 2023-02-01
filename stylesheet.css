@@ -71,7 +71,6 @@ name {
 
 body {
     background-color: #e5e0df;
-    
     padding: 0px;
     margin: 0px;
 
@@ -88,7 +87,7 @@ table {
     max-width: 750px;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 17px solid #272525;
+    border-bottom: 13px solid #272525;
     /*#778f55*/
 }
 
@@ -123,7 +122,7 @@ table {
 .menu {
     font-family: charter, Georgia, serif;
     font-size: 19px;
-    color: #272525;
+    color: #171414;
 }
 
 a {

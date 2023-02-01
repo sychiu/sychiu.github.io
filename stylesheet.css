@@ -73,13 +73,13 @@ papertitle {
 }
 
 venue{
-    color: #718f40;
+    color: #688735;
 }
 
 name {
     font-family: charter, Georgia, serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: normal; 
     font-stretch: normal;
     font-size: 21px;
 }

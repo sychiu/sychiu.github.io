@@ -42,14 +42,12 @@ a {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    color: #171414;
 }
 
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 15x;
     font-weight: 500;
-    color: #171414;
 }
 
 papertitle {
@@ -65,7 +63,6 @@ name {
     font-weight: normal;
     font-stretch: normal;
     font-size: 23px;
-    color: #171414;
 }
 
 
@@ -99,7 +96,6 @@ table {
     font-size: 23px;
     padding-left:5%;
     margin-top:53px;
-    color: #171414;
     
 }
 
@@ -122,7 +118,7 @@ table {
 .menu {
     font-family: charter, Georgia, serif;
     font-size: 19px;
-    color: #171414;
+    color: black;
 }
 
 a {

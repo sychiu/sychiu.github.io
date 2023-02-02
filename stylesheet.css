@@ -81,7 +81,7 @@ name {
     font-style: normal;
     font-weight: normal; 
     font-stretch: normal;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 body {
@@ -105,7 +105,7 @@ table {
 
 .name_tc {
     font-family: 'Noto Serif TC', serif;
-    font-size: 19px;
+    font-size: 21px;
     font-weight: 500;
 }
 
@@ -149,7 +149,7 @@ table {
 
 a {
     /*color: #0072c3;*/
-    color: #00539a;
+    color: #005bab;
     text-decoration: none;
 }
 

@@ -72,14 +72,14 @@ papertitle {
     font-weight: 500;
 }
 
-venue{
+venue {
     color: #688735;
 }
 
 name {
     font-family: charter, Georgia, serif;
     font-style: normal;
-    font-weight: normal; 
+    font-weight: normal;
     font-stretch: normal;
     font-size: 23px;
 }
@@ -98,7 +98,7 @@ table {
     width: 100%;
     max-width: 800px;
     margin-right: auto;
-
+    margin-left: auto;
     border-bottom: 7px solid #272525;
     /*#272525#778f55*/
 }

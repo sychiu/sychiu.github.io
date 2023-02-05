@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: charter;
+    font-family: Charter;
     font-style: normal;
     font-weight: normal;
     font-stretch: normal;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: charter;
+    font-family: Charter;
     font-style: italic;
     font-weight: normal;
     font-stretch: normal;
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-    font-family: charter;
+    font-family: Charter;
     font-style: normal;
     font-weight: bold;
     font-stretch: normal;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-    font-family: charter;
+    font-family: Charter;
     font-style: italic;
     font-weight: bold;
     font-stretch: normal;
@@ -55,29 +55,36 @@ tr,
 p,
 a {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 450;
+}
+
+a {
+    /*color: #0072c3;*/
+    color: #005bab;
+    text-decoration: none;
 }
 
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 15x;
+    font-size: 16x;
     font-weight: 450;
     color: black;
 }
 
 papertitle {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 venue {
     color: #688735;
+    font-weight: 450;
 }
 
 name {
-    font-family: charter, Georgia, serif;
+    font-family: Charter, Georgia, serif;
     font-style: normal;
     font-weight: normal;
     font-stretch: normal;
@@ -85,13 +92,28 @@ name {
 }
 
 body {
-    background-color: #e5e0df;
+    background-color: #e0e0e0;
     padding: 0px;
     margin: 0px;
 }
 
-table {
+table{
     background-color: white;
+}
+
+.heading {
+    font-family: Charter, Georgia, serif;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    padding-bottom: 2px; 
+    border-bottom: 1px solid black;
+}
+
+.ital{
+    font-style: italic;
 }
 
 .line {
@@ -99,7 +121,18 @@ table {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 7px solid #272525;
+    border-bottom: 7px solid black;
+    width:100%;
+    box-shadow: 0px 0px 5px #a8a8a8;
+    /*#272525#778f55*/
+}
+
+.line_b {
+    width: 100%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 7px solid black;
     /*#272525#778f55*/
 }
 
@@ -107,20 +140,9 @@ table {
     font-family: 'Noto Serif TC', serif;
     font-size: 21px;
     font-weight: 500;
+    color: #161616;
 }
 
-.heading {
-    font-family: charter, Georgia, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-stretch: normal;
-    font-size: 21px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 47px;
-    padding-bottom: 3px;
-    border-bottom: 1px solid black;
-}
 
 .one {
     width: 100%;
@@ -138,19 +160,13 @@ table {
 }
 
 .menu {
-    font-family: "charter", Georgia, serif;
+    font-family: Charter, Georgia, serif;
     font-size: 20px;
     color: black;
 }
 
 .authors {
-    color: #ada8a8;
-}
-
-a {
-    /*color: #0072c3;*/
-    color: #005bab;
-    text-decoration: none;
+    color: #a8a8a8;
 }
 
 a:focus,
@@ -158,6 +174,6 @@ a:hover {
     /*color: #db871d;*/
     /*#C0475D*/
     /*#452c63*/
-    color: #D99645;
+    color: #d4903d;
     text-decoration: none;
 }

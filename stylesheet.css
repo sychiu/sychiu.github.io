@@ -118,7 +118,7 @@ table {
 
 .line {
     width: 100%;
-    max-width: 825px;
+    max-width: 850px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 7px solid black;
@@ -126,7 +126,7 @@ table {
 
 .line_b {
     width: 100%;
-    max-width: 825px;
+    max-width: 850px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 7px solid black;

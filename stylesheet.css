@@ -1,5 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+
 
 @font-face {
     font-family: "IBM Plex Sans";
@@ -75,7 +75,7 @@ self {
 papertitle {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 venue {
@@ -118,16 +118,15 @@ table {
 
 .line {
     width: 100%;
-    max-width: 850px;
+    max-width: 825px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 7px solid black;
-    box-shadow: 0px 0px 5px #a8a8a8;
 }
 
 .line_b {
     width: 100%;
-    max-width: 850px;
+    max-width: 825px;
     margin-right: auto;
     margin-left: auto;
     border-bottom: 7px solid black;

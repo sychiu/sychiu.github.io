@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap');
 
 @font-face {
     font-family: "IBM Plex Sans";
@@ -84,12 +84,9 @@ venue {
 }
 
 name {
-    font-family: Charter, Georgia, serif;
-    font-style: normal;
-    font-weight: normal;
-    font-stretch: normal;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-weight: 450;
     font-size: 23px;
-    color: black;
 }
 
 body {
@@ -118,7 +115,7 @@ table {
     font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-bottom: 2.5%;
     padding-bottom: 1px;
     border-bottom: 1px solid black;
@@ -129,9 +126,9 @@ table {
 }
 
 .name_tc {
-    font-family: 'Noto Serif TC', serif;
-    font-size: 21px;
-    font-weight: 500;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .one {
@@ -150,7 +147,7 @@ table {
 }
 
 .menu_bar{
-    margin-top: 3.5%;
+    margin-top: 4%;
     padding: 1px;
     width:90%;
     /*border-bottom: 2px solid #a8a8a8;*/
@@ -197,8 +194,8 @@ a:hover {
     background-color: inherit;
   }
   
-  50% {
-    background-color: #ffc850;
+  30% {
+   color: #ffc850;
   }
   
   100% {
@@ -206,6 +203,14 @@ a:hover {
   }
 }
 
-.colorbox:hover {
+.colorbox:hover,
+.colorbox:focus{
   animation: hoverme 0.75s;
+}
+
+.menu:hover {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #a8a8a8;
 }

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
 
-
 @font-face {
     font-family: "IBM Plex Sans";
     font-style: normal;
@@ -120,25 +119,22 @@ table {
     width: 100%;
     max-width: 850px;
     margin-right: auto;
-    margin-left: auto;
-    border-bottom: 7px solid black;
+
+    border-bottom: 0px solid black;
 }
 
 .line_b {
     width: 100%;
     max-width: 850px;
     margin-right: auto;
-    margin-left: auto;
-    border-bottom: 7px solid black;
+    border-bottom: 0px solid black;
 }
 
 .name_tc {
     font-family: 'Noto Serif TC', serif;
     font-size: 21px;
     font-weight: 500;
-    color: #161616;
 }
-
 
 .one {
     width: 100%;
@@ -155,9 +151,23 @@ table {
     -webkit-transition: opacity .2s ease-in-out;
 }
 
+.menu_bar{
+    margin-top: 3%;
+    padding: 1px;
+    width:90%;
+    /*border-bottom: 2px solid #a8a8a8;*/
+    border-spacing:0px;
+    border-collapse:seperate;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: #e0e0e0;
+    position: relative;
+    box-shadow: 0px 4px 4px -4px black;
+}
+
 .menu {
     font-family: Charter, Georgia, serif;
-    font-size: 20px;
+    font-size: 17px;
     color: black;
 }
 
@@ -168,6 +178,6 @@ table {
 a:focus,
 a:hover {
     /*#C0475D*/
-    color: #d4903d;
+    color: #de9945;
     text-decoration: none;
 }

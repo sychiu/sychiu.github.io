@@ -85,8 +85,8 @@ venue {
 
 name {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-weight: 450;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 21px;
 }
 
 body {
@@ -102,13 +102,31 @@ table {
 .content_main {
     width: 100%;
     max-width: 850px;
-    min-width: 530px;
+    min-width: 550px;
     border: 0px;
     border-spacing: 0px;
     border-collapse: separate;
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0px 0px 15px -13px black;
+}
+
+.table.mobile {
+  display: none
+}
+
+.table.desktop {
+  display: inline-block
+}
+
+
+@media (max-width: 850px) {
+  .table.desktop {
+    display: none
+  }
+  .table.mobile {
+    display: inline-block
+  }
 }
 
 .heading {
@@ -129,8 +147,8 @@ table {
 
 .name_tc {
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .one {

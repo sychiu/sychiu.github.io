@@ -269,15 +269,17 @@ table {
 }
 
 .menu_bar_mobile {
-    padding: 7px;
-    border-spacing: 1px;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-spacing: 0px;
     border-collapse: separate;
     background-color: #e0e0e0;
     box-shadow: 5px 5px 0px 0px #525252;
 
     z-index: 100;
     position: fixed;
-    width: 225px;
+    width: 230px;
     bottom: 21px;
     right: 21px;
 

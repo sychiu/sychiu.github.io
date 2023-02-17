@@ -142,21 +142,29 @@ table {
     padding-right: 5%;
 }
 
-#footspace{
-    height:71px;
+#footspace {
+    height: 71px;
     display: none;
 }
 
 .about_mobile {
-    display: none
+    display: none;
 }
 
 .about_desktop {
-    display: inline-block
+    display: inline-block;
+}
+
+.personal_mobile {
+    display: none;
+}
+
+.personal_desktop {
+    display: inline-block;
 }
 
 .menu_bar_mobile {
-    display: none
+    display: none;
 }
 
 .menu_bar {
@@ -179,8 +187,16 @@ table {
     .menu_bar {
         display: none;
     }
-    
-    #footspace{
+
+    .personal_mobile {
+        display: inline-block;
+    }
+
+    .personal_desktop {
+        display: none;
+    }
+
+    #footspace {
         display: inline-block;
     }
 
@@ -225,7 +241,7 @@ table {
 .menu_bar {
     padding: 1px;
     border-spacing: 0px;
-    border-collapse: seperate;
+    border-collapse: separate;
     background-color: #e0e0e0;
     box-shadow: 4px 4px 0px 0px #6f6f6f;
 
@@ -255,7 +271,7 @@ table {
 .menu_bar_mobile {
     padding: 5px;
     border-spacing: 0px;
-    border-collapse: seperate;
+    border-collapse: separate;
     background-color: #e0e0e0;
     box-shadow: 5px 5px 0px 0px #6f6f6f;
 

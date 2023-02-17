@@ -277,7 +277,7 @@ table {
 
     z-index: 100;
     position: fixed;
-    width: 250px;
+    width: 230px;
     bottom: 21px;
     right: 21px;
     margin-left: calc(var(--maxw)*-0.0125);

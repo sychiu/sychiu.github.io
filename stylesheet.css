@@ -123,7 +123,7 @@ table {
     --minw: 500px;
     width: 100%;
     max-width: var(--maxw);
-    min-width: var(--minw);
+    /*min-width: var(--minw);*/
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0px 0px 15px -13px black;
@@ -214,7 +214,7 @@ table {
     position: fixed;
     width: calc(var(--maxw)*0.925);
     max-width: 90%;
-    min-width: calc(var(--minw)*0.925);
+    /*min-width: calc(var(--minw)*0.925);*/
     margin-top: 29px;
     margin-left: calc(var(--maxw)*-0.0125);
 

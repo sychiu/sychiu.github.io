@@ -119,7 +119,7 @@ table {
 }
 
 .page_container {
-    --maxw: 850px;
+    --maxw: 900px;
     --minw: 350px;
     width: 100%;
     max-width: var(--maxw);
@@ -130,6 +130,8 @@ table {
 }
 
 .content_main {
+    --pad: 7%;
+    --pad_mobile: 4%;
     max-width: inherit;
     min-width: inherit;
     width: inherit;
@@ -138,8 +140,8 @@ table {
     border-collapse: separate;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: var(--pad);
+    padding-right: var(--pad);
 }
 
 #footspace {
@@ -147,12 +149,22 @@ table {
     display: none;
 }
 
-.about_mobile {
-    display: none;
-}
-
 .about_desktop {
     display: inline-block;
+    width:100%;
+    padding-top:91px;
+    padding-bottom:9px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.about_mobile {
+    display: none;
+    width:100%;
+    padding-top:47px;
+    padding-bottom:5px;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .personal_mobile {
@@ -171,7 +183,11 @@ table {
     display: inline-block flex;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+    .content_main{
+        padding-left: var(--pad_mobile);
+        padding-right: var(--pad_mobile);
+    }
     .about_desktop {
         display: none;
     }
@@ -250,14 +266,14 @@ table {
     width:100%;
     margin-left: auto;
     margin-right: auto;*/
-
+    --test: 50%;
     z-index: 100;
     position: fixed;
-    width: calc(var(--maxw)*0.925);
+    width: calc(var(--maxw)*0.86 + 34px);
     /*max-width: 90%;
     min-width: calc(var(--minw)*0.925);*/
-    top: 29px;
-    margin-left: calc(var(--maxw)*-0.0125);
+    top: 31px;
+    margin-left: -17px;
 
     /*max-width:inherit;
     min-width:inherit;

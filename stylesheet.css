@@ -152,8 +152,8 @@ table {
 .about_desktop {
     display: inline-block;
     width:100%;
-    padding-top:91px;
-    padding-bottom:9px;
+    padding-top:119px;
+    padding-bottom:19px;
     margin-right:auto;
     margin-left:auto;
 }
@@ -222,7 +222,7 @@ table {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-weight: 600;
     font-size: 16px;
-    margin-top: 2.5%;
+    margin-top: 5%;
     margin-bottom: 2.5%;
     padding-bottom: 1px;
     border-bottom: 1px solid #262626;

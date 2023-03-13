@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@300;400;500&display=swap');
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 450;
+    src: local("IBM Plex Sans Text"), local("IBMPlexSans-Text"), url("font/IBM-Plex-Sans/IBMPlexSans-Text.woff2") format("woff2"), url("font/IBM-Plex-Sans/IBMPlexSans-Text.woff") format("woff");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    font-style: italic;
+    font-weight: 450;
+    src: local("IBM Plex Sans Text Italic"), local("IBMPlexSans-TextItalic"), url("font/IBM-Plex-Sans/IBMPlexSans-TextItalic.woff2") format("woff2"), url("font/IBM-Plex-Sans/IBMPlexSans-TextItalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: Charter;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('font/Charter/charter_regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Charter;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('font/Charter/charter_italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Charter;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('font/Charter/charter_bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: Charter;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('font/Charter/charter_bold_italic.woff2') format('woff2');
+}
+
+td {
+    padding: 0px;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    color: #262626;
+}
+
+.title{
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #262626;
+}
+
+a {
+    /*color: #0072c3;*/
+    color: #2a598c;
+    text-decoration: none;
+}
+
+self {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16x;
+    font-weight: 450;
+    color: #262626;
+}
+
+papertitle {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+venue {
+    color: #688735;
+    font-weight: 450;
+}
+
+name {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+body {
+    background-color: #ededed;
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    background-color: white;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.table_fig {
+    padding: 1.25%;
+    padding-left: 0px;
+    width: 22%;
+}
+
+.table_disc {
+    padding: 1.25%;
+    padding-right: 0px;
+    width: 78%;
+    vertical-align: middle
+}
+
+.page_container {
+    --maxw: 900px;
+    --minw: 350px;
+    width: 100%;
+    max-width: var(--maxw);
+    /*min-width: var(--minw);*/
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 0px 15px -13px black;
+}
+
+.content_main {
+    --pad: 7%;
+    --pad_mobile: 4%;
+    max-width: inherit;
+    min-width: inherit;
+    width: inherit;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: var(--pad);
+    padding-right: var(--pad);
+}
+
+#footspace {
+    height: 71px;
+    display: none;
+}
+
+
+.heading {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #262626;
+    padding: 0px;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.name_tc {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.two {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.menu {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.authors {
+    color: #a8a8a8;
+}
+
+a:focus,
+a:hover {
+    /*#C0475D*/
+    color: #de9945;
+    text-decoration: none;
+}
+
+.colorbox {
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
+    transition: color 0.75s ease-in;
+    -webkit-transition: color 0.75s ease-in;
+    -o-transition: color 0.75s ease-in;
+    -moz-transition: color 0.75s ease-in;
+    -ms-transition: color 0.75s ease-in;
+}
+
+@keyframes hoverme {
+    0% {
+        background-color: inherit;
+    }
+
+    30% {
+        color: #ffc850;
+    }
+
+    100% {
+        background-color: inherit;
+    }
+}
+
+.colorbox:hover,
+.colorbox:focus {
+    animation: hoverme 0.75s;
+}
+
+.menu:hover {
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #a8a8a8;
+
+}
+
+/*div#publication:target {
+ animation: bookmark-animation 1s;
+}
+div#project:target {
+ animation: bookmark-animation 1s;
+}
+div#personal:target {
+ animation: bookmark-animation 1s;
+}
+
+@keyframes bookmark-animation {
+  0% {
+    background-color: inherit;
+  }
+  
+  30% {
+   background-color: #e0e0e0;
+  }
+  
+  100% {
+     background-color: inherit;
+  }
+}*/

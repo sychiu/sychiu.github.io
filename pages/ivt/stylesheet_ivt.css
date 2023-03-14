@@ -71,7 +71,7 @@ a {
 
 a {
     /*color: #0072c3;*/
-    color: #2a598c;
+    color: #3a6491;
     text-decoration: none;
 }
 
@@ -207,8 +207,9 @@ table {
 a:focus,
 a:hover {
     /*#C0475D*/
-    color: #de9945;
-    text-decoration: none;
+    /*#de994*/
+    color: #2a4869;
+    text-decoration: underline;
 }
 
 .colorbox {

@@ -57,7 +57,7 @@ tr,
 p,
 a {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 450;
     color: #262626;
 }
@@ -77,14 +77,14 @@ a {
 
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16x;
+    font-size: 15x;
     font-weight: 450;
     color: #262626;
 }
 
 papertitle {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -100,7 +100,7 @@ name {
 }
 
 body {
-    background-color: #ededed;
+    background-color: white/*#ededed*/;
     padding: 0px;
     margin: 0px;
 }
@@ -126,14 +126,14 @@ table {
 }
 
 .page_container {
-    --maxw: 900px;
+    --maxw: 850px;
     --minw: 350px;
     width: 100%;
     max-width: var(--maxw);
     /*min-width: var(--minw);*/
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 0px 0px 15px -13px black;
+    /*box-shadow: 0px 0px 14px -13px black;*/
 }
 
 .content_main {
@@ -160,7 +160,7 @@ table {
 .heading {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     padding-bottom: 1px;
@@ -195,7 +195,7 @@ table {
 
 .menu {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #262626;
 }
@@ -213,7 +213,7 @@ a:hover {
 }
 
 .colorbox {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #262626;
     transition: color 0.75s ease-in;
@@ -244,7 +244,7 @@ a:hover {
 
 .menu:hover {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #a8a8a8;
 

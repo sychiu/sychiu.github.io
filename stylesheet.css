@@ -64,8 +64,7 @@ a {
 
 a {
     /*color: #0072c3;*/
-    color: #3a6491;
-    text-decoration: none;
+    color: inherit;
 }
 
 self {
@@ -82,7 +81,7 @@ papertitle {
 }
 
 venue {
-    color: #667d33;
+    color: inherit;
     font-weight: 450;
 }
 
@@ -317,6 +316,7 @@ table {
     font-size: 15px;
     font-weight: 500;
     color: #262626;
+    text-decoration: none;
 }
 
 .authors {
@@ -327,7 +327,7 @@ a:focus,
 a:hover {
     /*#C0475D*/
     /*#de994*/
-    color: #2a4869;
+    color: #667d33;
     text-decoration: underline;
 }
 
@@ -367,7 +367,6 @@ a:hover {
     font-weight: 500;
     color: #a8a8a8;
     text-decoration: none;
-
 }
 
 /*div#publication:target {

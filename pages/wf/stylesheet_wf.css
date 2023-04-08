@@ -71,8 +71,7 @@ a {
 
 a {
     /*color: #0072c3;*/
-    color: #3a6491;
-    text-decoration: none;
+    color: inherit;
 }
 
 self {
@@ -208,7 +207,7 @@ a:focus,
 a:hover {
     /*#C0475D*/
     /*#de994*/
-    color: #2a4869;
+    color: #667d33;
     text-decoration: underline;
 }
 .colorbox {

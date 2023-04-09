@@ -50,6 +50,10 @@ td {
     padding: 0px;
 }
 
+img{
+    border: 1px solid #525252;
+}
+
 body,
 td,
 th,

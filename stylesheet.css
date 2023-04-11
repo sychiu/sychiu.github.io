@@ -96,13 +96,12 @@ name {
 }
 
 body {
-    background-color: white/*#ededed*/;
+    background-color: white;
     padding: 0px;
     margin: 0px;
 }
 
 table {
-    background-color: white;
     border: 0px;
     border-spacing: 0px;
     border-collapse: separate;
@@ -124,8 +123,9 @@ table {
     vertical-align: top;
 }
 
+
 .page_container {
-    --maxw: 850px;
+    --maxw: 825px;
     --minw: 350px;
     width: 100%;
     max-width: var(--maxw);
@@ -134,7 +134,7 @@ table {
     margin-left: auto;
     /*box-shadow: 0px 0px 14px -13px black;*/
 }
-
+ 
 .content_main {
     --pad: 7%;
     --pad_mobile: 4%;
@@ -189,7 +189,7 @@ table {
     display: inline-block flex;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 825px) {
     .content_main{
         padding-left: var(--pad_mobile);
         padding-right: var(--pad_mobile);
@@ -274,7 +274,7 @@ table {
     margin-right: auto;*/
     z-index: 100;
     position: fixed;
-    width: calc(var(--maxw)*0.86 + 29px);
+    width: calc(var(--maxw)*0.86 + 30px);
     /*max-width: 90%;
     min-width: calc(var(--minw)*0.925);*/
     top: 33px;
@@ -305,7 +305,7 @@ table {
 
     z-index: 100;
     position: fixed;
-    width: 230px;
+    width: 220px;
     bottom: 21px;
     right: 21px;
 

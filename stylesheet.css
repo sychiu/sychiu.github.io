@@ -158,8 +158,8 @@ table {
 .about_desktop {
     display: inline-block;
     width:100%;
-    padding-top:139px;
-    padding-bottom:29px;
+    padding-top:121px;
+    padding-bottom:21px;
     margin-right:auto;
     margin-left:auto;
 }
@@ -261,11 +261,11 @@ table {
 }
 
 .menu_bar {
-    padding: 3px;
+    padding: 1px;
     border-spacing: 0px;
     border-collapse: separate;
     background-color: #e0e0e0;
-    box-shadow: 5px 5px 0px 0px #525252;
+    box-shadow: 4px 4px 0px 0px #525252;
 
     /*margin-top: 4%;
     position: relative;
@@ -296,8 +296,8 @@ table {
 
 .menu_bar_mobile {
     padding: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 7px;
+    padding-right: 0px;
     border-spacing: 0px;
     border-collapse: separate;
     background-color: #e0e0e0;
@@ -305,7 +305,7 @@ table {
 
     z-index: 100;
     position: fixed;
-    width: 220px;
+    width: 210px;
     bottom: 21px;
     right: 21px;
 
@@ -320,7 +320,7 @@ table {
 
 .menu {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     color: #262626;
     text-decoration: none;
@@ -370,7 +370,7 @@ a:hover {
 
 .menu:hover {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
     color: #a8a8a8;
     text-decoration: none;

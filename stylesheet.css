@@ -376,6 +376,14 @@ a:hover {
     text-decoration: none;
 }
 
+.news{
+    margin-left: -2px;
+    background-color: #F5C47F;
+    border: 0px solid #525252;
+    box-shadow: 3px 3px #525252;
+    padding: 7px 7px 7px 7px;
+}
+
 /*div#publication:target {
  animation: bookmark-animation 1s;
 }

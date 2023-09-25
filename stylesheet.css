@@ -377,10 +377,10 @@ a:hover {
 }
 
 .news{
-    margin-left: -2px;
+    margin-left: 0px;
     background-color: #F5C47F;
-    border: 0px solid #525252;
-    box-shadow: 3px 3px #525252;
+    border: 1px solid #6f6f6f;
+    /*box-shadow: 3px 3px #525252;*/
     padding: 7px 7px 7px 7px;
 }
 

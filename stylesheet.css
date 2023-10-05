@@ -265,7 +265,7 @@ table {
     border-spacing: 0px;
     border-collapse: separate;
     background-color: #e0e0e0;
-    box-shadow: 4px 4px 0px 0px #525252;
+    box-shadow: 5px 5px 0px 0px #525252;
 
     /*margin-top: 4%;
     position: relative;
@@ -294,6 +294,12 @@ table {
     box-sizing: border-box;*/
 }
 
+.menu_bar td{
+    vertical-align:middle;
+    text-align:center;
+    width:25%
+}
+
 .menu_bar_mobile {
     padding: 5px;
     padding-left: 7px;
@@ -317,6 +323,14 @@ table {
     transform: translateX(-5%);
     margin-left: 5%;*/
 }
+
+.menu_bar_mobile td{
+    padding: 2px;
+    vertical-align:middle;
+    width:50%
+}
+
+
 
 .menu {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;

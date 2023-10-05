@@ -54,6 +54,7 @@ img{
     border: 1px solid #525252;
 }
 
+
 body,
 td,
 th,
@@ -66,16 +67,11 @@ a {
     color: #262626;
 }
 
-a {
-    /*color: #0072c3;*/
-    color: inherit;
-}
-
 self {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
     font-size: 15x;
     font-weight: 450;
-    color: #262626;
+    color: #8d8d8d;
 }
 
 papertitle {
@@ -261,7 +257,7 @@ table {
 }
 
 .menu_bar {
-    padding: 1px;
+    padding: 2px 0px 2px 0px;
     border-spacing: 0px;
     border-collapse: separate;
     background-color: #e0e0e0;
@@ -341,26 +337,13 @@ table {
 }
 
 .authors {
-    color: #a8a8a8;
+    color: #c6c6c6;
 }
 
 a:focus,
 a:hover {
-    /*#C0475D*/
-    /*#de994*/
-    color: #6a7d33;
+    color: #a6c8ff;
     text-decoration: underline;
-}
-
-.colorbox {
-    font-size: 15px;
-    font-weight: 500;
-    color: #262626;
-    transition: color 0.75s ease-in;
-    -webkit-transition: color 0.75s ease-in;
-    -o-transition: color 0.75s ease-in;
-    -moz-transition: color 0.75s ease-in;
-    -ms-transition: color 0.75s ease-in;
 }
 
 @keyframes hoverme {
@@ -377,10 +360,6 @@ a:hover {
     }
 }
 
-.colorbox:hover,
-.colorbox:focus {
-    animation: hoverme 0.75s;
-}
 
 .menu:hover {
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
@@ -421,3 +400,46 @@ div#personal:target {
      background-color: inherit;
   }
 }*/
+
+
+.content_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.content_box {
+    flex:1;
+    flex-grow: 1;
+    min-width: 330px;
+}
+
+.content_box table{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.content_fig{
+    padding: 0 3% 0 0;
+    width: 20%;
+    vertical-align: top;
+}
+
+.content_text{
+    width: 80%;
+    vertical-align: top;
+}
+
+.detail_disc{
+    margin: 0.7em 0 0.7em 0;
+    color: #6f6f6f;
+}
+
+
+
+
+
+
+

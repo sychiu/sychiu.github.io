@@ -4,15 +4,15 @@
   "images": [
     {
       "src": "images/projects/smart-rabbit/0.jpg",
-      "caption": "Home screen with account overview and quick actions"
+      "caption": ""
     },
     {
       "src": "images/projects/smart-rabbit/1.jpg",
-      "caption": "Transaction history with search and filtering capabilities"
+      "caption": ""
     },
     {
       "src": "images/projects/smart-rabbit/2.jpg",
-      "caption": "Secure payment flow with biometric authentication"
+      "caption": ""
     }
   ],
   "content": [

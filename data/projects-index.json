@@ -1,0 +1,98 @@
+{
+  "projects": [
+    {
+      "id": "situated-agent-geospatial",
+      "title": "Situated Agents in Real-World Spaces",
+      "description": "explores how AI agents collaborate with people to learn, act, and contribute within shared physical communities at urban scale.",
+      "thumbnail": "/images/projects/situated-agent-geospatial/teaser.jpg",
+      "slider": "/images/projects/situated-agent-geospatial/teaser.jpg",
+      "file": "data/projects/situated-agent-geospatial.json"
+    },
+    {
+      "id": "fluid",
+      "title": "Fluid Display Inverted Tinge",
+      "description": "explores novel tangible fluid graphics through a custom-built, motorized inkjet array submerged in water.",
+      "thumbnail": "/images/projects/fluid/ivt.jpg",
+      "slider": "/images/projects/fluid/tease.jpg",
+      "file": "data/projects/fluid.json"
+    },
+    {
+      "id": "thermal",
+      "title": "Cross-Modality Image Synthesis",
+      "description": "from low-cost, low-resolution thermal sensors using improved GAN architectures",
+      "thumbnail": "/images/projects/thermal/low_res.png",
+      "slider": "/images/projects/thermal/1.jpg",
+      "file": "data/projects/thermal.json"
+    },
+    {
+      "id": "thermal-application",
+      "title": "Thermal Imaging Applications",
+      "description": "through low-cost, low-resolution thermal sensor with deep learning approaches.",
+      "thumbnail": "/images/projects/thermal-application/tease.jpg",
+      "slider": "/images/projects/thermal-application/tease.jpg",
+      "file": "data/projects/thermal-application.json"
+    }
+    ,
+    {
+      "id": "mini-tof-pointing-recognition",
+      "title": "Hand Pointing and Gesture Recognition",
+      "description": "using machine learning on ultra-compact ToF Lidar data.",
+      "thumbnail": "/images/projects/mini-tof-pointing-recognition/tease.jpg",
+      "slider": "/images/projects/mini-tof-pointing-recognition/0.jpg",
+      "file": "data/projects/mini-tof-pointing-recognition.json"
+    }
+    ,
+    {
+      "id": "smart-rabbit",
+      "title": "Smart Rabbit",
+      "description": "uses AI-predicted heart rate and course intelligence to guide marathon runners toward optimal pacing.",
+      "thumbnail": "/images/projects/smart-rabbit/smartrabbit.jpg",
+      "slider": "/images/projects/smart-rabbit/smartrabbit.jpg",
+      "file": "data/projects/smart-rabbit.json"
+    },
+    {
+      "id": "whale-fall",
+      "title": "Whale Fall",
+      "description": "is a motor array-driven kinetic sculpture that translates the slow, graceful motion of a whale into mechanical form.",
+      "thumbnail": "/images/projects/whale-fall/wf.jpg",
+      "slider": "/images/projects/whale-fall/wf.jpg",
+      "file": "data/projects/whale-fall.json"
+    }
+    ,
+     {
+      "id": "racoon-chatbot",
+      "title": "Racoon: Relevant Answering Chatbot with Preprocessing and Associating Intelligence",
+      "description": "in preparation",
+      "thumbnail": "/images/projects/racoon-chatbot/placeholder.svg",
+      "slider": "/images/projects/racoon-chatbot/placeholder.svg",
+      "file": null
+    }
+    ,
+    {
+      "id": "motor-faults",
+      "title": "Intelligent Motor Fault Diagnosis",
+      "description": " reveals motor faults through feature learning and unsupervised clustering of sensor data. RA work during my master's studies.",
+      "thumbnail": "/images/projects/motor-faults/md.png",
+      "slider": "/images/projects/motor-faults/md.png",
+      "file": null
+    }
+    ,
+    {
+      "id": "metal-packaging-optimization",
+      "title": "Design Optimization Tool",
+      "description": "using genetic algorithms for heavy-duty metal packages. Completed a 36-hour training course for CATIA CAD/CAE. RA work during my undergrad.",
+      "thumbnail": "/images/projects/metal-packaging-optimization/ca1.jpg",
+      "slider": "/images/projects/metal-packaging-optimization/ca1.jpg",
+      "file": null
+    },
+    {
+      "id": "addictive-manufacturing-air-filtering",
+      "title": "addictive manufacturing air filtering",
+      "description": "in preparation",
+      "thumbnail": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg",
+      "slider": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg",
+      "file": null
+    }
+  ]
+}
+ 

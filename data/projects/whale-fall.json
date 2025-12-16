@@ -1,0 +1,15 @@
+{
+  "id": "whale-fall",
+  "title": "Kinetic Sculpture “Whale Fall” (2018)",
+  "description": "",
+  "content": [
+    "A custom-built motor array was used to create a kinetic sculpture that simulates the movements of a whale in the ocean. The work was recognized as a semifinalist in the Adobe Design Achievement Awards (ADAA)."
+  ],
+  "links": [
+    { "label": "Video (Youtube)", "url": "https://www.youtube.com/watch?v=q7b6gLAVTCY" }
+  ],
+  "images": [
+    { "src": "/images/projects/whale-fall/1.jpg", "caption": "" },
+    { "src": "/images/projects/whale-fall/0.jpg", "caption": "" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "addictive-manufacturing-air-filtering",
+  "title": "addictive manufacturing air filtering",
+  "description": "This is a placeholder. Add a brief description of the air filtering design, manufacturing constraints, and testing results.",
+  "content": [
+    "This project explores air filtering solutions designed with (additive) manufacturing constraints, focusing on flow efficiency and filtration performance.",
+    "Replace this content with materials, filter geometry, CFD/experimental data, and optimization criteria."
+  ],
+  "links": [
+    { "label": "Project overview", "url": "https://example.com/projects/air-filtering-am" },
+    { "label": "Source code", "url": "https://github.com/example/air-filtering-am" },
+    { "label": "Demo video", "url": "https://youtu.be/dQw4w9WgXcQ" }
+  ],
+  "images": [
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg", "caption": "Project cover" }
+  ]
+}

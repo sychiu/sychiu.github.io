@@ -1,0 +1,17 @@
+{
+  "id": "motor-faults",
+  "title": "Intelligent Diagnosis of Motor Faults",
+  "description": "This is a placeholder. Add a brief description of the motor fault diagnosis project here.",
+  "content": [
+    "This project focuses on using intelligent methods to diagnose motor faults.",
+    "Replace this content with a detailed overview, methodology, and results."
+  ],
+  "links": [
+    { "label": "Paper (arXiv)", "url": "https://arxiv.org/abs/0000.00000" },
+    { "label": "Source code (GitHub)", "url": "https://github.com/example/motor-faults" },
+    { "label": "Demo video", "url": "https://youtu.be/dQw4w9WgXcQ" }
+  ],
+  "images": [
+    { "src": "/images/projects/motor-faults/placeholder.svg", "caption": "Project cover" }
+  ]
+}

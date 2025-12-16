@@ -1,0 +1,51 @@
+{
+  "title": "Fluid Display Inverted Tinge (2019)",
+  "description": "Translating digital images into tangible fluid graphics.",
+  "images": [
+    { "src": "images/projects/fluid/a0.jpg", "caption": "Image 0" },
+    { "src": "images/projects/fluid/a1.jpg", "caption": "Image 1" },
+    { "src": "images/projects/fluid/a2.jpg", "caption": "Image 2" },
+    { "src": "images/projects/fluid/a3.jpg", "caption": "Image 3" },
+    { "src": "images/projects/fluid/a4.jpg", "caption": "Image 4" },
+    { "src": "images/projects/fluid/a5.jpg", "caption": "Image 5" },
+    { "src": "images/projects/fluid/a6.jpg", "caption": "Image 6" },
+    { "src": "images/projects/fluid/a7.jpg", "caption": "Image 7" },
+    { "src": "images/projects/fluid/a8.jpg", "caption": "Image 8" },
+    { "src": "images/projects/fluid/a9.jpg", "caption": "Image 9" },
+    { "src": "images/projects/fluid/a10.jpg", "caption": "Image 10" },
+    { "src": "images/projects/fluid/a11.jpg", "caption": "Image 11" },
+    { "src": "images/projects/fluid/a12.jpg", "caption": "Image 12" },
+    { "src": "images/projects/fluid/a13.jpg", "caption": "Image 13" },
+    { "src": "images/projects/fluid/a14.jpg", "caption": "Image 14" },
+    { "src": "images/projects/fluid/a15.jpg", "caption": "Image 15" },
+    { "src": "images/projects/fluid/a16.jpg", "caption": "Image 16" },
+    { "src": "images/projects/fluid/a17.jpg", "caption": "Image 17" },
+    { "src": "images/projects/fluid/a18.jpg", "caption": "Image 18" },
+    { "src": "images/projects/fluid/a19.jpg", "caption": "Image 19" },
+    { "src": "images/projects/fluid/a20.jpg", "caption": "Image 20" },
+    { "src": "images/projects/fluid/a21.jpg", "caption": "Image 21" },
+    { "src": "images/projects/fluid/a22.jpg", "caption": "Image 22" },
+    { "src": "images/projects/fluid/a23.jpg", "caption": "Image 23" },
+    { "src": "images/projects/fluid/a24.jpg", "caption": "Image 24" },
+    { "src": "images/projects/fluid/a25.jpg", "caption": "Image 25" },
+    { "src": "images/projects/fluid/a26.jpg", "caption": "Image 26" },
+    { "src": "images/projects/fluid/a27.jpg", "caption": "Image 27" }
+  ],
+  "content": [
+    "Inverted Tinge is a large-scale interactive installation that explores tangible fluid graphics through a custom-built, motorized inkjet array submerged in water. The project examines how digital images can be translated into physical form using fluid dynamics, color diffusion, and mechanical control.",
+    "The installation features a human-sized 12 × 12 grid of individually actuated ink nozzles housed within a transparent water tank. Each nozzle is driven by a custom servo mechanism and connected to ink delivery system capable of real-time color mixing. By controlling ink volume and firing timing, the system converts user inputs and pixel-based images into dynamic three-dimensional ink formations suspended in water. As the inks disperse and interact, the images continuously evolve, balancing precise computation with organic material behavior.",
+    "The project involved extensive hands-on hardware prototyping under tight cost and fabrication constraints. All major components, including the water tank, pressure-resistant nozzle interfaces, mechanical assemblies, electronics, and control systems, were designed and built from scratch. Special attention was given to reparability and reliability in a submerged environment.",
+    "More than a display system, Inverted Tinge functions as an experimental platform for exploring physical computation and alternative forms of display beyond screens. The project reflects a strong interest in material-driven interaction, rapid prototyping, and the expressive potential of engineered systems.",
+    "My role: Project lead; led initial ideation and was responsible for software development, electrical systems, and ink supply design."
+  ],
+  "links": [
+    {
+      "label": "Video (YouTube)",
+      "url": "https://www.youtube.com/watch?v=l_6_yJujEDI"
+    },
+    {
+      "label": "Technical Report (Chinese)",
+      "url": "data/invertedTinge_V2_reduce_size.pdf"
+    }
+  ]
+}

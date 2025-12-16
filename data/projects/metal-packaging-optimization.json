@@ -1,0 +1,17 @@
+{
+  "id": "metal-packaging-optimization",
+  "title": "Auto Design Tool for Heavy-Duty Metal Packaging Optimization",
+  "description": "This is a placeholder. Add a brief description of the optimization tool, objectives, and key results.",
+  "content": [
+    "This project automates the design and optimization of heavy-duty metal packaging using algorithmic search and constraint-based evaluation.",
+    "Replace this content with methodology, datasets, constraints, and performance outcomes."
+  ],
+  "links": [
+    { "label": "Project overview (Docs)", "url": "https://example.com/docs/metal-packaging" },
+    { "label": "Source code (GitHub)", "url": "https://github.com/example/metal-packaging-optimization" },
+    { "label": "Demo video", "url": "https://youtu.be/dQw4w9WgXcQ" }
+  ],
+  "images": [
+    { "src": "/images/projects/metal-packaging-optimization/placeholder.svg", "caption": "Project cover" }
+  ]
+}

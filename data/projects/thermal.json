@@ -1,0 +1,27 @@
+{
+  "title": "Cross-Modality Image Synthesis (2023)",
+  "description": "Towards augmented sensing from constrained sensing modalities.",
+  "images": [
+    {
+      "src": "images/projects/thermal/0.jpg",
+      "caption": "Dashboard overview showing key metrics and data visualizations"
+    },
+    {
+      "src": "images/projects/thermal/1.jpg",
+      "caption": "Detailed analytics view with interactive charts"
+    },
+    {
+      "src": "images/projects/thermal/2.jpg",
+      "caption": "Mobile-responsive layout adapting to different screen sizes"
+    }
+  ],
+  "content": [
+    "Abstract: Thermopile array sensors are cost-effective thermal imaging alternatives and are less vulnerable to privacy intrusion, light conditions, and obtrusiveness. While numerous occupant surveillance systems have been developed based on such sensors, low spatial resolutions prohibit them from deriving more sophisticated applications. To help relieve the limitation, we propose to enrich thermopile array sensors with additional non-thermal features and develop, to the best of our knowledge, the first low-resolution thermal-guided image synthesis model capable of producing realistic and attribute-aligned color images. These thermal heatmaps are regarded as semantic maps, but have very low resolutions. We propose an extension of SPADE (Spatially-Adaptive Denormalization), namely SPADE-SR, to incorporate the spatial property of a thermal heatmap into a conditional GAN through iterative Self-Resampling. Compared to SPADE, SPADE-SR yields better results in terms of image quality and reconstruction error while using significantly fewer model parameters. A new LRT-Human (Low-Resolution Thermal Human) dataset comprised of 22k (thermal heatmap, RGB image) pairs with various thermal and non-thermal coupling is derived to support our claims. Our work explores the cross-thermal-RGB modality paradigm and poses a great opportunity for thermopile array sensors in surveillance usages."
+  ],
+  "links": [
+    {
+      "label": "Publication (Low-Resolution Thermal Sensor-Guided Image Synthesis)",
+      "url": "https://openaccess.thecvf.com/content/WACV2023W/RWS/html/Chiu_Low-Resolution_Thermal_Sensor-Guided_Image_Synthesis_WACVW_2023_paper.html"
+    }
+  ]
+}

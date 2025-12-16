@@ -1,0 +1,32 @@
+{
+  "title": "Smart Rabbit",
+  "description": "",
+  "images": [
+    {
+      "src": "images/projects/smart-rabbit/0.jpg",
+      "caption": "Home screen with account overview and quick actions"
+    },
+    {
+      "src": "images/projects/smart-rabbit/1.jpg",
+      "caption": "Transaction history with search and filtering capabilities"
+    },
+    {
+      "src": "images/projects/smart-rabbit/2.jpg",
+      "caption": "Secure payment flow with biometric authentication"
+    }
+  ],
+  "content": [
+    "Abstract: This paper introduces a wearable device that aims to facilitate marathon runners to maintain the most decent running pace. We adopt deep learning approach to predict the runner's heart rate. This derived information is combined with existing altitude and road conditions to generate the most suitable pacing suggestion to coach the runner for the best performance. In addition, we have developed a face recognition mechanism to help runners to easily identify and retrieve their photos shot during running in the cloud photo bank with the aid of a personal cell phone instantaneously. Our pilot system has been proven for its feasibility in both the heart rate prediction performance and photo identification rate."
+  ],
+  "links": [
+        {
+      "label": "Media Coverage",
+      "url": "https://running-biji-co.translate.goog/index.php?q=news&act=info&id=100165&_x_tr_sl=zh-TW&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp"
+    }
+    ,
+    {
+      "label": "Publication (Smart Rabbit - A Wearable Device As An Intelligent Pacer for Marathon Runners) (2019)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8825111"
+    }
+  ]
+}

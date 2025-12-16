@@ -1,0 +1,43 @@
+{
+  "title": "Thermal Imaging Applications",
+  "description": "",
+  "images": [
+    {
+      "src": "images/projects/thermal-application/0.jpg",
+      "caption": "Panasonic Grid-Eye Thermopile Array Sensor"
+    },
+    {
+      "src": "images/projects/thermal-application/1.jpg",
+      "caption": "Bed-Exit Classification Model"
+    },
+    {
+      "src": "images/projects/thermal-application/2.jpg",
+      "caption": "Gesture Classification and Mask Prediction Model"
+    },
+    {
+      "src": "images/projects/thermal-application/3.jpg",
+      "caption": "Bed-Exit Lab Setup"
+    },
+    {
+      "src": "images/projects/thermal-application/4.jpg",
+      "caption": "Privacy-Preserving Video Conferencing Concept"
+    }
+  ],
+  "content": [
+    "This work explores how low-cost, low-resolution thermal sensors can enable practical applications including privacy-preserving video conferencing, gesture-based automatic door control, and bed-exit detection. Using task-specific deep learning and generative models, these studies demonstrate reliable human activity sensing under constrained resolution and privacy-preserving conditions."
+  ],
+  "links": [
+    {
+      "label": "Publication (Privacy-Preserving Video Conferencing via Thermal-Generative Images) (ICRA 2023)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10161205"
+    },
+    {
+      "label": "Publication (Gesture-based Intention Prediction for Automatic Door Opening using Low-Resolution Thermal Sensors: A U-Net-based Deep Learning Approach) (2021)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9645718"
+    },
+    {
+      "label": "Publication (A Convolutional Neural Networks Approach with Infrared Array Sensor for Bed-Exit Detection) (2018)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/8520032"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "mini-tof-pointing-recognition",
+  "title": "Pointing and Gesture Recognition through Ultra-Compact Lidar (2025)",
+  "description": "Ongoing Project",
+  "content": [
+    "Despite its low resolution, the VL53L5CX ToF sensor provides rich raw time-of-flight data that can be exploited for hand gesture and pointing recognition tasks. This project explores data collection, preprocessing, and deep learning methods to achieve accurate recognition."
+  ],
+  "links": [
+  ],
+  "images": [
+    { "src": "/images/projects/mini-tof-pointing-recognition/0.jpg", "caption": "Data Collection Setup with Leap Motion as Ground Truth" },
+    { "src": "/images/projects/mini-tof-pointing-recognition/1.jpg", "caption": "FOV Visualization" },
+    { "src": "/images/projects/mini-tof-pointing-recognition/3.jpg", "caption": "Sensor Data Visualization" }
+  ]
+}

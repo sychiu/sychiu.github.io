@@ -1,4 +1,9 @@
 /* ================================
+   FONTS
+   ================================ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* ================================
    RESET & BASE STYLES
    ================================ */
 * {
@@ -12,7 +17,8 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 450;
     line-height: 1.6;
     color: #000;
     background: #fff;
@@ -69,7 +75,7 @@ body {
 }
 
 .profile-intro {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     margin-bottom: 30px;
     line-height: 1.5;
 }
@@ -152,7 +158,7 @@ body {
 }
 
 .slider-caption {
-    font-size: 0.875rem;
+    font-size: 0.85rem;
     margin-top: 8px;
     color: #000;
 }
@@ -226,7 +232,7 @@ body {
 .project-item-content {
     flex: 1;
     min-width: 0;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     line-height: 1.4;
 }
 
@@ -282,14 +288,14 @@ body {
 }
 
 .project-description {
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-bottom: 30px;
     line-height: 1.6;
     white-space: pre-line; /* render \n as line breaks in project detail */
 }
 
 .project-content {
-    font-size: 0.9375rem;
+    font-size: 0.85rem;
     line-height: 1.7;
     margin-bottom: 40px;
 }
@@ -314,7 +320,7 @@ body {
 }
 
 .project-links a {
-    font-size: 0.9375rem;
+    font-size: 0.85rem;
     border-bottom: 1px solid #000;
 }
 
@@ -455,7 +461,7 @@ body {
 }
 
 .personal_desktop p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     line-height: 1.4;
     margin: 0;
 }

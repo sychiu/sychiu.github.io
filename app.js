@@ -156,7 +156,7 @@ function renderHomeSlider() {
     if (!slider || !state.projectsIndex) return;
     
     // Take first 5 projects for slider
-    const projects = state.projectsIndex.projects.slice(0, 6);
+    const projects = state.projectsIndex.projects.slice(0, 8);
     
     slider.innerHTML = projects.map(project => `
         <div class="slider-slide">
@@ -231,9 +231,6 @@ function renderProjectSlider(project) {
     
     if (!track || !project.images || project.images.length === 0) return;
     
-    // Reset track position to first slide
-    track.style.transform = 'translateX(0%)';
-    
     // Render slides
     track.innerHTML = project.images.map((img, index) => `
         <div class="slider-slide" data-index="${index}">
@@ -260,11 +257,21 @@ function renderProjectSlider(project) {
 // ================================
 function initAutoplaySlider(track, slideCount) {
     let currentIndex = 0;
-    const intervalTime = 5000; // 7 seconds (slower autoplay)
+    const intervalTime = 5000; // 5 seconds per slide
+    const slides = track.querySelectorAll('.slider-slide');
+    
+    // Set first slide as active
+    if (slides.length > 0) {
+        slides[0].classList.add('active');
+    }
     
     function goToSlide(index) {
+        // Remove active from current
+        slides[currentIndex].classList.remove('active');
+        
+        // Update index and add active to new slide
         currentIndex = index % slideCount;
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        slides[currentIndex].classList.add('active');
     }
     
     // Autoplay
@@ -288,10 +295,22 @@ function initAutoplaySlider(track, slideCount) {
 
 function initManualSlider(track, caption, thumbnails, images) {
     let currentIndex = 0;
+    const slides = track.querySelectorAll('.slider-slide');
+    
+    // Set first slide as active
+    if (slides.length > 0) {
+        slides[0].classList.add('active');
+    }
     
     function goToSlide(index) {
+        // Remove active from current slide
+        slides[currentIndex].classList.remove('active');
+        
+        // Update index and add active to new slide
         currentIndex = index;
-        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        slides[currentIndex].classList.add('active');
+        
+        // Update caption
         caption.textContent = images[currentIndex].caption || '';
         
         // Update active thumbnail

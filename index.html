@@ -10,7 +10,7 @@
     <!-- Left Column: Profile (fixed width) -->
     <aside class="profile">
         <div class="profile-content">
-            <h1 class="profile-name">Sheng-Yang Chiu</h1>
+            <h1 class="profile-name"><a href="#home" class="profile-name-link">Sheng-Yang Chiu</a></h1>
             <img src="images/shengyangchiu.jpeg" alt="Sheng-Yang Chiu" class="profile-image">
             <p class="profile-intro">I'm currently a graduate researcher at Simon Fraser University in Vancouver BC, with a background in hardware prototyping, machine learning, and creative practice. My research focuses on exploring situated AI agents and interactive designs that connect people, place, and computation in real-world communities.</p>
             <p class="profile-intro">
@@ -69,7 +69,7 @@
             </section>
 
             <section class="hobbies">
-                <h3>Personal Hobbies</h3>
+                <h3>Other Things</h3>
                 <table class="personal_desktop">
                     <tbody>
                         <tr>
@@ -114,5 +114,15 @@
     </main>
 
     <script src="app.js"></script>
+    <script>
+        // Native scroll to top when clicking home links while already on home
+        document.querySelectorAll('a[href="#home"]').forEach(link => {
+            link.addEventListener('click', (e) => {
+                if (window.location.hash === '#home' || window.location.hash === '') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
 </body>
 </html>

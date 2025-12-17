@@ -1,15 +1,11 @@
 {
   "id": "racoon-chatbot",
   "title": "Racoon: Relevant Answering Chatbot with Preprocessing and Associating Intelligence",
-  "description": "This is a placeholder. Add a brief description of the chatbot's preprocessing pipeline, association/knowledge mechanisms, and QA results.",
+  "description": "",
   "content": [
-    "This project implements a chatbot focused on relevant answering through text preprocessing, retrieval/association, and intelligent reasoning.",
-    "Replace this content with architecture diagrams, data sources, evaluation metrics (e.g., accuracy@k), and deployment details."
+    ""
   ],
   "links": [
-    { "label": "Project overview", "url": "https://example.com/projects/racoon-chatbot" },
-    { "label": "Source code", "url": "https://github.com/example/racoon-chatbot" },
-    { "label": "Demo video", "url": "https://youtu.be/dQw4w9WgXcQ" }
   ],
   "images": [
     { "src": "/images/projects/racoon-chatbot/placeholder.svg", "caption": "Project cover" }

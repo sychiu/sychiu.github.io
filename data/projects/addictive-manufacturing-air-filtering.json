@@ -1,13 +1,28 @@
 {
   "id": "addictive-manufacturing-air-filtering",
-  "title": "addictive manufacturing air filtering",
-  "description": "",
+  "title": "Additive Fabrication for Air Filtration Devices",
+  "description": "Enabling customizable, request-driven, ultra low-cost filtration for real environments using off-the-shelf consumable filtration media",
   "content": [
-    ""
+    "This project applies additive manufacturing to air filtration to create high-performance systems adaptable to individual needs and specific spaces. 3D printing makes it possible to rapidly iterate housings, tune airflow paths, and build compact, modular configurations that would be difficult or expensive with traditional fabrication, while using off-the-shelf consumable filtration media.",
+    "<strong>Prototype 1: Pre/post-stage particulate + gas-phase filtration module:</strong>",
+    "Prototype 1 explores a full filtration setup combining particulate and gas-phase filtration. The prototype achieves a carbon dwell time of approximately 0.1–0.3 seconds, a range associated with heavy-duty industrial practice according to ASHRAE references. This demonstrates how additive fabrication can deliver industrial-grade gas-phase performance that is typically expensive and not commonly designed for consumer use.",
+    "<strong>Prototype 2 — High-flow inline V-bank HEPA box</strong>",
+    "Prototype 2 focuses on high airflow and cost efficiency: an inline particulate filtration module built around a V-bank HEPA configuration, reaching approximately 400 m³/hr. This class of high-flow filtration unit typically costs several hundred to several thousand dollars, but the additive fabrication approach reduces the build cost to under $25 while delivering comparable functional performance."
   ],
   "links": [
   ],
   "images": [
-    { "src": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg", "caption": "Project cover" }
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/1-1.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/1-2.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/1-3.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/1-4.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/3-1.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/3-2.jpg", "caption": "Prototype 1" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-1.jpg", "caption": "Prototype 2" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-2.jpg", "caption": "Prototype 2" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-3.jpg", "caption": "Prototype 2" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-4.jpg", "caption": "Prototype 2" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-5.jpg", "caption": "Prototype 2" },
+    { "src": "/images/projects/addictive-manufacturing-air-filtering/2-6.jpg", "caption": "Prototype 2" }
   ]
 }

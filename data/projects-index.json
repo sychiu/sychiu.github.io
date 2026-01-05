@@ -34,6 +34,14 @@
     }
     ,
     {
+      "id": "addictive-manufacturing-air-filtering",
+      "title": "Additive Fabrication for Air Filtration Devices",
+      "description": "enables customizable, request-driven, ultra low-cost filtration for real environments using off-the-shelf consumable filtration media.",
+      "thumbnail": "/images/projects/addictive-manufacturing-air-filtering/2-2.jpg",
+      "slider": "/images/projects/addictive-manufacturing-air-filtering/2-2.jpg",
+      "file": "data/projects/addictive-manufacturing-air-filtering.json"
+    },
+    {
       "id": "mini-tof-pointing-recognition",
       "title": "Hand Pointing and Gesture Recognition",
       "description": "using machine learning on ultra-compact ToF Lidar data.",
@@ -83,14 +91,6 @@
       "description": "using genetic algorithms for heavy-duty metal packages. Completed a 36-hour training course for CATIA CAD/CAE. RA work during my undergrad.",
       "thumbnail": "/images/projects/metal-packaging-optimization/ca1.jpg",
       "slider": "/images/projects/metal-packaging-optimization/ca1.jpg",
-      "file": null
-    },
-    {
-      "id": "addictive-manufacturing-air-filtering",
-      "title": "addictive manufacturing air filtering",
-      "description": "in preparation",
-      "thumbnail": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg",
-      "slider": "/images/projects/addictive-manufacturing-air-filtering/placeholder.svg",
       "file": null
     }
   ]

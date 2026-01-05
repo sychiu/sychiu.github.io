@@ -257,7 +257,7 @@ function renderProjectSlider(project) {
 // ================================
 function initAutoplaySlider(track, slideCount) {
     let currentIndex = 0;
-    const intervalTime = 3500; // 3 seconds per slide
+    const intervalTime = 4000; // 3 seconds per slide
     const slides = track.querySelectorAll('.slider-slide');
     
     // Set first slide as active

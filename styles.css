@@ -379,6 +379,9 @@ body {
     .profile-nav {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        max-width: calc(100% - 30px);
         gap: 10px;
         margin-top: 20px;
         position: fixed;
@@ -391,7 +394,7 @@ body {
     }
 
     .nav-link {
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         text-transform: uppercase;
         letter-spacing: 0.5px;
         text-decoration: none;

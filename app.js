@@ -34,8 +34,8 @@ function handleRoute() {
     
     if (!hash || hash === 'home') {
         showHomePage();
-    } else if (hash === 'cv') {
-        showCvPage();
+    } else if (hash === 'other-things') {
+        showOtherThingsPage();
     } else if (hash === 'about' || hash === 'contact') {
         // Add these pages later if needed
         showHomePage();
@@ -94,8 +94,8 @@ async function showHomePage() {
     // Show home page, hide others
     document.getElementById('home-page').classList.add('active');
     document.getElementById('project-page').classList.remove('active');
-    const cvPageEl = document.getElementById('cv-page');
-    if (cvPageEl) cvPageEl.classList.remove('active');
+    const otherThingsPageEl = document.getElementById('other-things-page');
+    if (otherThingsPageEl) otherThingsPageEl.classList.remove('active');
     
     // Render content
     renderHomeSlider();
@@ -118,7 +118,7 @@ async function showProjectPage(projectId) {
     // Show project page, hide others
     document.getElementById('home-page').classList.remove('active');
     document.getElementById('project-page').classList.add('active');
-    document.getElementById('cv-page').classList.remove('active');
+    document.getElementById('other-things-page').classList.remove('active');
     
     // Render content
     renderProjectDetail(project);
@@ -128,25 +128,30 @@ async function showProjectPage(projectId) {
     window.scrollTo(0, 0);
 }
 
-async function showCvPage() {
-    state.currentPage = 'cv';
+async function showOtherThingsPage() {
+    state.currentPage = 'other-things';
 
-    // Hide others, show CV page
+    // Hide others, show Other Things page
     document.getElementById('home-page').classList.remove('active');
     document.getElementById('project-page').classList.remove('active');
-    document.getElementById('cv-page').classList.add('active');
-    updateNavigation('cv');
+    document.getElementById('other-things-page').classList.add('active');
+    updateNavigation('other-things');
 }
 
 function updateNavigation(activePage) {
     const links = document.querySelectorAll('.nav-link');
     links.forEach(link => {
-        const href = link.getAttribute('href').slice(1);
-        link.classList.toggle('active', href === activePage);
+        let href = link.getAttribute('href');
+        if (href.startsWith('#')) {
+            href = href.slice(1);
+            link.classList.toggle('active', href === activePage);
+        } else {
+            link.classList.remove('active');
+        }
     });
 }
 
-// CV page is fully static in HTML—no renderers or data loading required.
+// Other Things page is fully static in HTML—no renderers or data loading required.
 
 // ================================
 // HOME PAGE RENDERERS

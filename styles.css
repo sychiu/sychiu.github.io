@@ -89,10 +89,14 @@ body {
     line-height: 1.5;
 }
 
+.profile-intro a {
+    text-decoration: underline;
+}
+
 .profile-nav {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
 }
 
 .nav-link {

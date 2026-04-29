@@ -400,7 +400,7 @@ body {
         flex-wrap: wrap;
         justify-content: flex-end;
         max-width: 250px;
-        gap: 6px;
+        gap: 7px;
         margin-top: 20px;
         position: fixed;
         bottom: 12px;

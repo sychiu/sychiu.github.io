@@ -124,8 +124,12 @@ async function showProjectPage(projectId) {
     renderProjectDetail(project);
     renderProjectSlider(project);
     
-    // Scroll to top
-    window.scrollTo(0, 0);
+    // Scroll to content on mobile, top on desktop
+    if (window.innerWidth <= 500) {
+        document.querySelector('.content').scrollIntoView({ behavior: 'smooth' });
+    } else {
+        window.scrollTo(0, 0);
+    }
 }
 
 async function showOtherThingsPage() {
@@ -136,6 +140,13 @@ async function showOtherThingsPage() {
     document.getElementById('project-page').classList.remove('active');
     document.getElementById('other-things-page').classList.add('active');
     updateNavigation('other-things');
+
+    // Scroll to content on mobile, top on desktop
+    if (window.innerWidth <= 500) {
+        document.querySelector('.content').scrollIntoView({ behavior: 'smooth' });
+    } else {
+        window.scrollTo(0, 0);
+    }
 }
 
 function updateNavigation(activePage) {

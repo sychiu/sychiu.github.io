@@ -25,10 +25,10 @@
         <div class="profile-content">
             <h1 class="profile-name"><a href="#home" class="profile-name-link">Sheng-Yang Chiu</a></h1>
             <img src="images/shengyangchiu.jpeg" alt="Sheng-Yang Chiu" class="profile-image">
-            <p class="profile-intro">I'm currently a PhD student at Simon Fraser University in Burnaby BC,
+            <p class="profile-intro">I'm a PhD student at Simon Fraser University in Burnaby BC,
                 with a background in hardware prototyping, machine learning, and creative practice. My current research
                 focuses
-                on exploring situated AI agents and interactive designs that connect people, place, and computation in
+                on exploring situated AI agents and interactive designs that connect people and places in
                 real-world communities.</p>
             <p class="profile-intro">
                 sheng-yang_chiu@sfu.ca
@@ -108,9 +108,10 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: 20px;">
-                                    <a href="https://sychiu.github.io/trafivis/" target="_blank" rel="noopener" style="font-weight: bold; background-color: pink;">TrafiVis
-                                        - Everycar seen by Vancouver's traffic cam <svg class="external-icon" width="12"
-                                            height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    <a href="https://sychiu.github.io/trafivis/" target="_blank" rel="noopener"
+                                        style="font-weight: bold; background-color: pink;">TrafiVis
+                                        - Every car seen by Vancouver's traffic cameras <svg class="external-icon"
+                                            width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                             <polyline points="15 3 21 3 21 9"></polyline>
@@ -126,7 +127,7 @@
                                 </div>
                             </td>
                             <td>
-                                <p>Cypress Mountain, Dec 2025</p>
+                                <p>Cypress Mountain, Dec 2025 (a super warm season)</p>
                             </td>
                         </tr>
 
@@ -138,9 +139,9 @@
                                 </div>
                             </td>
                             <td>
-                                <p>I've been playing drums in Sunday services for 4 years. Playing in a church band is a
-                                    practice of worship, endurance, improvisation, and discipline. I also do sound
-                                    engineering at church (mainly broadcasting, sometimes FoH) since 2014. When I was in
+                                <p>I played drums in Sunday services for 4 years. Playing in a church band is a
+                                    practice of worship, endurance, improvisation, and discipline. I also did sound
+                                    engineering at church (mainly broadcasting, sometimes FoH). When I was in
                                     high school, my dream was to open a recording studio. Apparently, the path has gone
                                     very differently.</p>
                             </td>
@@ -154,8 +155,8 @@
                                 </div>
                             </td>
                             <td>
-                                <p>Besides my major, I'm into a lot of things. My first-tier interests are automobiles,
-                                    airplanes, and home appliances. I also love history and art; my favorite place in
+                                <p>I love cars, airplanes, and home appliances. I also love visiting museums: my favorite
+                                    place in
                                     Taiwan is the <a href="https://www.npm.gov.tw/" target="_blank"
                                         rel="noopener noreferrer">National Palace Museum</a>, which has the world's
                                     largest collection of Chinese artifacts. Before the thought of becoming a sound
@@ -174,7 +175,7 @@
                                 <p>My siblings and I own too many fluffy friends. The largest group of them are kiwis
                                     made by Nici, however, my favorite stuffed toy manufacturer is <a
                                         href="https://www.jellycat.com/" target="_blank"
-                                        rel="noopener noreferrer">Jellycat</a>. I currently play badminton weekly, I'm
+                                        rel="noopener noreferrer">Jellycat</a>. I play badminton weekly, I'm
                                     okay at doubles but I suck at singles. My teammate and I won the first runner-up in
                                     a game in Taichung last summer.</p>
                             </td>
@@ -187,12 +188,10 @@
 
     <script src="app.js"></script>
     <script>
-        // Native scroll to top when clicking home links while already on home
+        // Native scroll to top when clicking home links
         document.querySelectorAll('a[href="#home"]').forEach(link => {
             link.addEventListener('click', (e) => {
-                if (window.location.hash === '#home' || window.location.hash === '') {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             });
         });
     </script>
